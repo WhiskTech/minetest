@@ -250,8 +250,22 @@ popd
 echo Failed.
 exit /b 1
 
+<<<<<<< HEAD
 License of Minetest textures and sounds
 ---------------------------------------
+=======
+Compiling on OS X
+-----------------
+
+$ cmake -G Xcode .
+
+Open the resulting `minetest.xcodeproj` and build the `package` target.
+
+You should then find a `minetest-0.x.x-osx.dmg` in the root directory.
+
+License of Minetest-c55 textures and sounds
+-------------------------------------------
+>>>>>>> 50ece0a... Document current state. Read this commit message!
 
 This applies to textures and sounds contained in the main Minetest
 distribution.
